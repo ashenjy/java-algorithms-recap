@@ -27,3 +27,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/.idea/
+/java-data-struct-algorithms-recap.iml
