@@ -1,3 +1,4 @@
+package leetcode.array;
 
 /*
 Example 1:

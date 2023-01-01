@@ -1,4 +1,4 @@
-package string;
+package leetcode.string;
 /*
 * Given a string, remove the vowels from the string and print the string without vowels.
 

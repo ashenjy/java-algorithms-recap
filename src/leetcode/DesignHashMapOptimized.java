@@ -1,4 +1,4 @@
-/*Problem Statement
+package leetcode;/*Problem Statement
 Design a HashMap without using any built-in hash table libraries.
 
 To be specific, your design should include these functions:

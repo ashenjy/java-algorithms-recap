@@ -1,3 +1,5 @@
+package leetcode;
+
 /*Merge two sorted linked lists and return it as a new sorted list.*/
 class ListNode{
 
