@@ -1,14 +1,14 @@
-package union;
+package unionfind;
 
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-class QuickFind {
+public class QuickFindUF {
 
     private int[] id;
 
-    QuickFind(int N){
+    QuickFindUF(int N){
         id = new int[N];
         for(int i=0; i < N; i++){
             id[i] = i;
@@ -21,7 +21,6 @@ class QuickFind {
     }
 
     /*add connection between p and q*/
-
     void union(int p, int q){ //  p: 5, q: 6
         int pid = id[p]; //id[p]: 11
         int qid = id[q]; //id[q]: 8
@@ -34,14 +33,10 @@ class QuickFind {
         }
     }
 
-}
-
-class DynamicConnectivityClient{
-
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        QuickFind uf = new QuickFind(N);
+        QuickFindUF uf = new QuickFindUF(N);
 
         while(sc.hasNext()){
             int p = sc.nextInt();
@@ -52,4 +47,6 @@ class DynamicConnectivityClient{
             }
         }
     }
+
 }
+
