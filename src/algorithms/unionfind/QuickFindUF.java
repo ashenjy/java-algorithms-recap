@@ -1,4 +1,4 @@
-package unionfind;
+package algorithms.unionfind;
 
 import java.io.IOException;
 import java.util.Arrays;

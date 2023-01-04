@@ -1,4 +1,4 @@
-package unionfind;
+package algorithms.unionfind;
 /**
  * Coursera - Algorithms Part I
  * Week 1 - Interview Questions - Union Find
