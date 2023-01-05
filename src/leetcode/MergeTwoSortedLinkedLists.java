@@ -1,21 +1,25 @@
 package leetcode;
 
-/*Merge two sorted linked lists and return it as a new sorted list.*/
-class ListNode{
+public class MergeTwoSortedLinkedLists {
 
-    int val;
-    ListNode next;
-    ListNode(){}
-    ListNode(int val){
-        this.val = val;
-    }
-    ListNode(int val, ListNode next){
-        this.val = val;
-        this.next = next;
-    }
-}
+    public MergeTwoSortedLinkedLists(){
 
-class Merge {
+    }
+
+    /*Merge two sorted linked lists and return it as a new sorted list.*/
+     static class ListNode{
+
+        int val;
+        ListNode next;
+        ListNode(){}
+        ListNode(int val){
+            this.val = val;
+        }
+        ListNode(int val, ListNode next){
+            this.val = val;
+            this.next = next;
+        }
+    }
     /*Approach
     * l1 = 1 -> 3 -> 10
     * l2 = 5 -> 6 -> 9
@@ -31,7 +35,7 @@ class Merge {
      * l3 = 1, 3, 5
      * compare the first two nodes in both lists, (10,5) 5 is smaller so add it to the new list and move the pointer to l2
      * * */
-    static ListNode mergeTwoSortedLinkedLists(ListNode l1, ListNode l2){
+    public static ListNode mergeTwoSortedLinkedLists(ListNode l1, ListNode l2){
         if(l1 == null){
             return l2;
         }
@@ -88,7 +92,7 @@ class Merge {
         head2.next = new ListNode(6 );
         head2.next.next = new ListNode(9);
 
-        ListNode mergedHead = mergeTwoSortedLinkedLists(head1, head2);
+        ListNode mergedHead = MergeTwoSortedLinkedLists.mergeTwoSortedLinkedLists(head1, head2);
 
         printList(mergedHead);
 
