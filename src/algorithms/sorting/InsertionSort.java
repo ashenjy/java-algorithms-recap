@@ -69,7 +69,6 @@ public class InsertionSort {
     }
 
     public static boolean isSorted(int[] a, int lo, int hi){ // {14,9,3,2,43,11,58,22}
-        int n = a.length;
         for(int i=lo; i < hi; i++){
             if(a[i] < a[i-1]){  // 9 < 14
                 return false;
