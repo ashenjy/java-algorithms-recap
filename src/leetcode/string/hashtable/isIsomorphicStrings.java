@@ -60,3 +60,19 @@ public class isIsomorphicStrings {
         boolean isIsomorhpic = isIsomorphic("egg", "add");
     }
 }
+//
+//    public static Integer find_total( Integer[] my_numbers ) {
+//        int running_total = 0;
+//        for (int i = 0; i < my_numbers.length; i++) {
+//            if (my_numbers[i] % 2 != 0) {
+//                if (my_numbers[i] == 5) {
+//                    running_total += 5;
+//                } else {
+//                    running_total += 3;
+//                }
+//            } else {
+//                running_total += 1;
+//            }
+//        }
+//        return running_total;
+//    }

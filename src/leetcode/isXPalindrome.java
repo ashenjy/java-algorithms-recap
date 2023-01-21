@@ -46,6 +46,8 @@ Explanation: 10 reads as 01 from left to right and from right to left.*/
         return false;
     }
 
+
+
     public static void main(String[] args){
         System.out.println("Enter number:");
         Scanner sc = new Scanner(System.in);
