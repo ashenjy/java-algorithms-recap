@@ -1,0 +1,5 @@
+1. Implement a basic Stack data structure using an array
+2. Implement a Stack data structure using a Linked List
+3. Implement a function that takes in an expression containing brackets and evaluates the expression using a Stack
+4. Design a function to reverse a given string using a Stack
+5. Create a function to check if a given expression is balanced using a Stack

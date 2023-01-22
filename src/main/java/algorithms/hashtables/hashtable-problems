@@ -1,0 +1,11 @@
+what are the 5 most asked coding problems for hashtables?
+
+1. Implement a Hash Table
+2. Design a Hash Table with Separate Chaining
+Separate Chaining technique combines a linked list with a hash table in order to resolve the collision.
+This method uses extra memory to resolve the collision.
+The time complexity of both searching and deleting a element in the hash table is O(n), where n is the number of keys hash to the same slot.
+
+3. Find the Closest Match in a Hash Table
+4. Implement LRU Cache Using a Hash Table
+5. Find the Most Frequent Item in a Hash Table
